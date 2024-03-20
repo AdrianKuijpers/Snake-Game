@@ -1,0 +1,50 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 100px;
+  margin: 400px;
+  background-color: gray;
+}
+
+.snake {
+  background-color: black;
+}
+
+h1 {
+  right: 100px;
+  top: 115px;
+  position: relative;
+}
+
+.grid {
+  border-radius: 100px;
+  display: grid;
+  grid-template-columns: repeat(20, 20px);
+  grid-template-rows: repeat(20, 20px);
+  margin: 5px;
+}
+
+.spelborder {
+  border: black solid 15px;
+}
+
+.IMG {
+  margin-left: 50px;
+  margin-top: 230px;
+  position: absolute;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.scores {
+  margin-left: 250px;
+  border: black solid 10px;
+}
+
+.fruit {
+  color: blue;
+  background-color: blue;
+}
